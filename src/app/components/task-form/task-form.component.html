@@ -1,0 +1,11 @@
+<form class="input-group mb-3" (ngSubmit)="addTask()">
+  <input
+    type="text"
+    class="form-control"
+    placeholder="タスクを入力..."
+    [(ngModel)]="title"
+    name="title"
+    required
+  />
+  <button class="btn btn-primary" type="submit">追加</button>
+</form>
